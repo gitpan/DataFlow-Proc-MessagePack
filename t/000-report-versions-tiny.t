@@ -56,6 +56,7 @@ eval { $v .= pmver('File::Find','any version') };
 eval { $v .= pmver('File::Temp','any version') };
 eval { $v .= pmver('Moose','any version') };
 eval { $v .= pmver('Test::More','0.88') };
+eval { $v .= pmver('Test::UseAllModules','any version') };
 eval { $v .= pmver('namespace::autoclean','any version') };
 
 

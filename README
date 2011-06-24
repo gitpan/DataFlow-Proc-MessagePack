@@ -2,7 +2,7 @@ NAME
     DataFlow::Proc::MessagePack - A MessagePack converting processor
 
 VERSION
-    version 1.111720
+    version 1.111750
 
 SUPPORT
   Perldoc
