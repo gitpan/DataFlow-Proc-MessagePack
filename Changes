@@ -1,6 +1,14 @@
 Revision History for DataFlow-Proc-MessagePack
 ==============================================
 
+1.111810
+--------
+
+commit 4c6fbe1c2257d6577723bd8b955422a222c7f121
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    using Moose "builder" rather than "default" (almost everywhere)
+
 ===================================
 End of changes in the last 365 days
 ===================================
