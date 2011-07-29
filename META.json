@@ -4,7 +4,7 @@
       "Alexei Znamensky <russoz@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.200008, CPAN::Meta::Converter version 2.110930",
+   "generated_by" : "Dist::Zilla version 4.200012, CPAN::Meta::Converter version 2.110930001",
    "license" : [
       "perl_5"
    ],
@@ -22,6 +22,7 @@
       "runtime" : {
          "requires" : {
             "Data::MessagePack" : 0,
+            "DataFlow" : "1.112100",
             "DataFlow::Proc::Converter" : 0,
             "Moose" : 0,
             "namespace::autoclean" : 0
@@ -41,13 +42,13 @@
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {},
-      "homepage" : "http://github.com/russoz/DataFlow-Proc-MessagePack",
+      "homepage" : "https://github.com/russoz/DataFlow-Proc-MessagePack",
       "repository" : {
          "type" : "git",
-         "url" : "http://github.com/russoz/DataFlow-Proc-MessagePack",
-         "web" : "http://github.com/russoz/DataFlow-Proc-MessagePack"
+         "url" : "https://github.com/russoz/DataFlow-Proc-MessagePack",
+         "web" : "https://github.com/russoz/DataFlow-Proc-MessagePack"
       }
    },
-   "version" : "1.111810"
+   "version" : "1.112100"
 }
 

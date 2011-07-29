@@ -5,7 +5,7 @@ use warnings;
 
 # ABSTRACT: A MessagePack converting processor
 
-our $VERSION = '1.111810'; # VERSION
+our $VERSION = '1.112100';    # VERSION
 
 use Moose;
 extends 'DataFlow::Proc::Converter';
@@ -54,7 +54,6 @@ __PACKAGE__->meta->make_immutable;
 
 1;
 
-
 __END__
 =pod
 
@@ -66,7 +65,7 @@ DataFlow::Proc::MessagePack - A MessagePack converting processor
 
 =head1 VERSION
 
-version 1.111810
+version 1.112100
 
 =for :stopwords cpan testmatrix url annocpan anno bugtracker rt cpants kwalitee diff irc mailto metadata placeholders
 
@@ -176,9 +175,9 @@ The code is open to the world, and available for you to hack on. Please feel fre
 with it, or whatever. If you want to contribute patches, please send me a diff or prod me to pull
 from your repository :)
 
-L<http://github.com/russoz/DataFlow-Proc-MessagePack>
+L<https://github.com/russoz/DataFlow-Proc-MessagePack>
 
-  git clone http://github.com/russoz/DataFlow-Proc-MessagePack
+  git clone https://github.com/russoz/DataFlow-Proc-MessagePack
 
 =head1 AUTHOR
 

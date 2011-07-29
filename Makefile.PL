@@ -28,11 +28,12 @@ my %WriteMakefileArgs = (
   'NAME' => 'DataFlow::Proc::MessagePack',
   'PREREQ_PM' => {
     'Data::MessagePack' => '0',
+    'DataFlow' => '1.112100',
     'DataFlow::Proc::Converter' => '0',
     'Moose' => '0',
     'namespace::autoclean' => '0'
   },
-  'VERSION' => '1.111810',
+  'VERSION' => '1.112100',
   'test' => {
     'TESTS' => 't/*.t'
   }
